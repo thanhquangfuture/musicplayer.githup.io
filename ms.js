@@ -1,4 +1,4 @@
-/*
+﻿/*
 1. Render songs
 2. Scroll top
 3. Play / pause / seek
@@ -73,6 +73,18 @@ const app = {
             singer: 'Long Nón Lá',
             path: './music/HoangHoaKy.mp3',
             image: './image/HoangHoaKy.jpg'
+        },
+  	{
+            name: 'Nhất Chi Mai',
+            singer: 'Lona',
+            path: './music/NhatChiMai.mp3',
+            image: './image/NhatChiMai.jpg'
+        },
+  	{
+            name: 'Khi Ta 20',
+            singer: 'Jsol',
+            path: './music/KhiTa20.mp3',
+            image: './image/KhiTa20.jpg'
         }
     ],
     render: function() {
