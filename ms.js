@@ -33,22 +33,22 @@ const app = {
     isRandom: false,
     isRepeat: false,
     songs: [{
-            name: 'Ai Mang Cô Đơn Đi',
-            singer: 'K-ICM ft APJ',
-            path: './music/AiMangCoDonDi.mp3',
-            image: './image/AiMangCoDonDi.jpg'
+            name: 'Gặp Nhưng Không Ở Lại',
+            singer: 'Hiền Hồ ft Quân AP',
+            path: './music/GapNhungKhongOLai.mp3',
+            image: './image/GapNhungKhongOLai.jpg'
         },
         {
-            name: 'Lời Đường Mật',
-            singer: 'HieuThuHai ft LyLy',
-            path: './music/LoiDuongMat.mp3',
-            image: './image/LoiDuongMat.jpg'
+            name: 'Nàng Thơ',
+            singer: 'Hoàng Dũng',
+            path: './music/NangTho.mp3',
+            image: './image/NangTho.jpg'
         },
         {
-            name: 'Ngày Chưa Giông Bão',
-            singer: 'Uni5',
-            path: './music/NgayChuaGiongBao.mp3',
-            image: './image/NgayChuaGiongBao.jpg'
+            name: 'Thiên Đàng',
+            singer: 'Wowy ft Loli',
+            path: './music/ThienDang.mp3',
+            image: './image/ThienDang.jpg'
         },
         {
             name: 'Thế Thái',
@@ -57,34 +57,88 @@ const app = {
             image: './image/TheThai.jpg'
         },
         {
-            name: 'Từng Yêu',
-            singer: 'Phan Duy Anh',
-            path: './music/TungYeu.mp3',
-            image: './image/TungYeu.jpg'
+            name: 'Sao Anh Chưa Về',
+            singer: 'Amee',
+            path: './music/SaoAnhChuaVe.mp3',
+            image: './image/SaoAnhChuaVe.jpg'
         },
         {
-            name: 'Dễ Đến Dễ Đi',
-            singer: 'Quang Hùng',
-            path: './music/DeDenDeDi.mp3',
-            image: './image/DeDenDeDi.jpg'
+            name: 'Chỉ Là Không Cùng Nhau',
+            singer: 'Tăng Phúc',
+            path: './music/ChiLaKhongCungNhau.mp3',
+            image: './image/ChiLaKhongCungNhau.jpg'
         },
         {
-            name: 'Hoàng Hoa Kỳ',
-            singer: 'Long Nón Lá',
-            path: './music/HoangHoaKy.mp3',
-            image: './image/HoangHoaKy.jpg'
+            name: 'Em Không Sai, Chúng Ta Sai',
+            singer: 'Erik',
+            path: './music/EmKhongSaiChungTaSai.mp3',
+            image: './image/EmKhongSaiChungTaSai.jpg'
         },
-  	{
-            name: 'Nhất Chi Mai',
-            singer: 'Lona',
-            path: './music/NhatChiMai.mp3',
-            image: './image/NhatChiMai.jpg'
+        {
+            name: 'Níu Duyên',
+            singer: 'Lê Bảo Bình',
+            path: './music/NiuDuyen.mp3',
+            image: './image/NiuDuyen.jpg'
         },
-  	{
-            name: 'Khi Ta 20',
-            singer: 'Jsol',
-            path: './music/KhiTa20.mp3',
-            image: './image/KhiTa20.jpg'
+        {
+            name: 'Thích Thì Đến',
+            singer: 'Lê Bảo Bình',
+            path: './music/ThichThiDen.mp3',
+            image: './image/ThichThiDen.jpg'
+        },
+        {
+            name: 'Tất Cả Sẽ Thay Em',
+            singer: 'Phạm Quỳnh Anh',
+            path: './music/TatCaSeThayEm.mp3',
+            image: './image/TatCaSeThayEm.jpg'
+        },
+        {
+            name: 'Trên Tình Bạn Dưới Tình Yêu',
+            singer: 'Min',
+            path: './music/TrenTinhBanDuoiTinhYeu.mp3',
+            image: './image/TrenTinhBanDuoiTinhYeu.jpg'
+        },
+        {
+            name: 'Tình Bạn Diệu Kỳ',
+            singer: 'Amee',
+            path: './music/TinhBanDieuKy.mp3',
+            image: './image/TinhBanDieuKy.jpg'
+        },
+        {
+            name: 'Anh Nhà Ở Đâu Thế',
+            singer: 'Amee',
+            path: './music/AnhNhaODauThe.mp3',
+            image: './image/AnhNhaODauThe.jpg'
+        },
+        {
+            name: 'Đừng Yêu Nữa Em Mệt Rồi',
+            singer: 'Min',
+            path: './music/DungYeuNuaEmMetRoi.mp3',
+            image: './image/DungYeuNuaEmMetRoi.jpg'
+        },
+        {
+            name: 'Hoa Nở Không Màu',
+            singer: 'Hoài Lâm',
+            path: './music/HoaNoKhongMau.mp3',
+            image: './image/HoaNoKhongMau.jpg'
+        },
+        {
+            name: 'Sài Gòn Đau Lòng Quá',
+            singer: 'Hứa Kim Tuyền ft Hoàng Duyên',
+            path: './music/SaiGonDauLongQua.mp3',
+            image: './image/SaiGonDauLongQua.jpg'
+        },
+        {
+            name: 'Cứ Ngỡ Là Anh',
+            singer: 'Đinh Tùng Huy',
+            path: './music/CuNgoLaAnh.mp3',
+            image: './image/CuNgoLaAnh.jpg'
+        },
+        {
+            name: 'Cố Giang Tình',
+            singer: 'X2X',
+            path: './music/CoGiangTinh.mp3',
+            image: './image/CoGiangTinh.jpg'
         }
     ],
     render: function() {
