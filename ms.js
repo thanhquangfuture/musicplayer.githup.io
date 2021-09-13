@@ -139,6 +139,48 @@ const app = {
             singer: 'X2X',
             path: './music/CoGiangTinh.mp3',
             image: './image/CoGiangTinh.jpg'
+        },
+        {
+            name: 'Sóng Gió',
+            singer: 'Jack ft K-ICM',
+            path: './music/SongGio.mp3',
+            image: './image/SongGio.jpg'
+        },
+        {
+            name: 'Bạc Phận',
+            singer: 'Jack ft K-ICM',
+            path: './music/BacPhan.mp3',
+            image: './image/BacPhan.jpg'
+        },
+        {
+            name: 'Đom Đóm',
+            singer: 'Jack',
+            path: './music/DomDom.mp3',
+            image: './image/DomDom.jpg'
+        },
+        {
+            name: 'Hạ Còn Vương Nắng',
+            singer: 'DatKaa',
+            path: './music/HaConVuongNang.mp3',
+            image: './image/HaConVuongNang.jpg'
+        },
+        {
+            name: 'Rồi Tới Luôn',
+            singer: 'NAL',
+            path: './music/RoiToiLuon.mp3',
+            image: './image/RoiToiLuon.jpg'
+        },
+        {
+            name: 'Bông Hoa Đẹp Nhất',
+            singer: 'Quân AP',
+            path: './music/BongHoaDepNhat.mp3',
+            image: './image/BongHoaDepNhat.jpg'
+        },
+        {
+            name: 'Ai Là Người Thương Em',
+            singer: 'Quân AP',
+            path: './music/AiLaNguoiThuongEm.mp3',
+            image: './image/AiLaNguoiThuongEm.jpg'
         }
     ],
     render: function() {
