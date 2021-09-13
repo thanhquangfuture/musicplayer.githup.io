@@ -57,10 +57,10 @@ const app = {
             image: './image/TheThai.jpg'
         },
         {
-            name: 'Sao Anh Chưa Về',
+            name: 'Sao Anh Chưa Về Nhà',
             singer: 'Amee',
-            path: './music/SaoAnhChuaVe.mp3',
-            image: './image/SaoAnhChuaVe.jpg'
+            path: './music/SaoAnhChuaVeNha.mp3',
+            image: './image/SaoAnhChuaVeNha.jpg'
         },
         {
             name: 'Chỉ Là Không Cùng Nhau',
